@@ -1,0 +1,22 @@
+DELAY 1000
+GUI r
+DELAY 1000
+STRING cmd
+CTRL SHIFT ENTER
+DELAY 2000
+LEFTARROW
+ENTER
+
+DELAY 2000
+STRING cd C:\Windows\System32\drivers\etc
+ENTER
+DELAY 500
+STRING echo 0.0.0.0 prod-eu-dot-studybee-ews.ey.r.appspot.com >> hosts
+ENTER
+STRING echo 0.0.0.0 gcp.studybee.io >> hosts
+ENTER
+STRING echo 0.0.0.0 studybee.se >> hosts
+ENTER
+DELAY 500
+ENTER
+ALT F4
